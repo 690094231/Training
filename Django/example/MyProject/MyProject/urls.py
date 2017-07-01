@@ -16,6 +16,7 @@ Including another URLconf
 from django.conf.urls import url,include
 from django.contrib import admin
 
+
 urlpatterns = [
 	url(r'^try/', include('MyApp.urls'), name="MyApp"),
     url(r'^admin/', admin.site.urls)
