@@ -25,7 +25,10 @@ SECRET_KEY = '30%jnynw1b1d51d2*^ymwn8_g0d4^a2i778wy44t_2u_5h6zv('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+if DEBUG == True:
+    ALLOWED_HOSTS = ['127.0.0.1']
+else:
+    ALLOWED_HOSTS = ['www.eesast.com']
 
 
 # Application definition
@@ -74,14 +77,16 @@ WSGI_APPLICATION = 'MyProject.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    'default':{
+        'ENGINE':'django.db.backends.mysql',
+        'NAME':'MyProject',
+        'USER':'MyProjectDjango',
+        'PASSWORD':'1234567',
+        'HOST':'localhost',
+        'PORT':''
     }
-}
-
-
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
 
