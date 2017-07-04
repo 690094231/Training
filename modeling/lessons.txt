@@ -1,0 +1,68 @@
+基本操作
+1. 重要快捷键
+ctrl+z/y
+ctrl+s or 另存为
+(1)视角：
+鼠标滚轮 放缩
+鼠标中键 移动视角
+alt+鼠标中键 旋转视角
+ctrl+alt+鼠标中键 连续值放缩
+六视图 v; t,b,f,l,v+r,c
+(2)视图：
+j 隐藏显示边界盒
+g 隐藏网格
+F3 线框显示
+F4 面显示
+/*
+段数与面数：
+控制精细、光滑、高级建模基础
+保证不变形前提下尽量减少
+*/
+(3)移动 旋转 放缩：(eg. bones)
+view, local aligned
+鼠标与数值
+
+做一把椅子(reset)
+edit poly
+vertex edge border poly element
+alt ctrl shift
+edge: double click, alt+R, connect, backspace, delete
+poly: extrude, bridge
+其他常用操作：
+shrink grow
+attach detach
+collapse (target)weld
+slice alt+c
+edge: chamfer, alt+c
+border: cap
+poly: bevel inset
+element: flip, clear all
+
+简单地形绘制：
+push pull relax
+
+罗姆楼与曲线
+
+常用特技
+OpenSubDiv
+symmetry / mirror
+edit poly
+uvw map
+uvw map clear
+unwrap uvw
+
+贴图与材质
+PS处理高光、凹凸
+PS处理无缝
+uvw map
+多维子物体材质
+
+模型输出与unity
+
+UV展开（暂不讲）
+骨骼与蒙皮（暂不讲）
+角色建模（暂不讲）
+关键帧动画（不讲）
+动力学（不讲）
+光（不讲）
+渲染选项（不讲）
