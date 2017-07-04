@@ -1,14 +1,3 @@
-<style>
-    h1{
-        font-size: 1.7rem;
-    }
-    h2{
-        font-size: 1.4rem;
-    }
-    p{
-        font-size: 1.2rem;
-    }
-</style>
 
 <h1>Front end Development</h1>
 
