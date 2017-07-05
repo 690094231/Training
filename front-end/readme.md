@@ -22,6 +22,13 @@
 <h2>Statement:</h2>
     
     This is only a series of elementary courses. 
+
     If you want to know more about front end web development, it is advised to build some websites by yourself.
+
     You are welcome to discuss problems about front end development with me.
+
     Thank you!
+
+<h2>Preparations:</h2>
+
+<p>I will appreciate it if you could preinstall visual studio code, since that may function in our training.</p>
