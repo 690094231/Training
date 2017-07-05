@@ -11,24 +11,24 @@
 
 <h2>Homework:</h2>
 <ul>
-<li>How to make a simple form?</li>
-<li>How to make a div horizontally center align? Then, how about vertically centering?</li>
-<li>How to make a carousel with page buttons?</li>
-<li>How to create frosted glass effect? (Department of Web Communication)</li>
-<li>How to make a carousel with only "prev" and "next" buttons? (Department of Web Communication)</li>
+<li>做一个简单的表单（注意label的使用）</li>
+<li>如何实现 水平/垂直 居中?</li>
+<li>做一个有页数按键的轮播图(carousel)</li>
+<li>如何实现毛玻璃效果(frosted glass effect)? (网宣)</li>
+<li>如何做一个只有前进与后退按键的轮播图?(网宣)</li>
 </ul>
 
 
 <h2>Statement:</h2>
     
-    This is only a series of elementary courses. 
+    这只是基础课程 
 
-    If you want to know more about front end web development, it is advised to build some websites by yourself.
+    如果你想更深入了解前端开发，请尝试自己搭建网站
 
-    You are welcome to discuss problems about front end development with me.
+    欢迎与我一起讨论前端问题！
 
     Thank you!
 
 <h2>Preparations:</h2>
 
-<p>I will appreciate it if you could preinstall visual studio code, since that may function in our training.</p>
+<p>请提前安装好VS Code，并将其安装至默认路径（C盘）</p>
